@@ -49,7 +49,7 @@ h2 {
     transform: scale(1.2);
 }
 
-#publications-container {
+/* #publications-container {
     list-style-type: none;
     padding: 0;
 }
@@ -58,11 +58,32 @@ h2 {
     margin-bottom: 1.5rem;
     border-bottom: 1px solid #ddd;
     padding-bottom: 1rem;
-}
+} */
 
 footer {
     text-align: center;
     padding: 1rem 0;
     background-color: #243b55;
     color: white;
+}
+
+
+/* Publications Section */
+#publications-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Spacing between publications */
+}
+
+.publication-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.publication-card:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s;
 }
