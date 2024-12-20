@@ -1,12 +1,5 @@
 [
     {
-        "title": "Explainable Artificial Intelligence (XAI) in the era of large language models: Applying an XAI framework in pediatric ophthalmology diagnosis using the Gemini model",
-        "authors": "Upadhyaya, D. P., Prantzalos, K., Golnari, P., Shaikh, A. G., Sivagnanam, S., Majumdar, A., Ghasia, F. F., & Sahoo, S. S.",
-        "journal": "AMIA 2025 Informatics Summit (Accepted)",
-        "year": "2025",
-        "link": ""
-    },
-    {
         "title": "Machine learning interpretability methods to characterize the importance of hematologic biomarkers in prognosticating patients with suspected infection",
         "authors": "Upadhyaya, D. P., Tarabichi, Y., Prantzalos, K., Ayub, S., Kaelber, D. C., & Sahoo, S. S.",
         "journal": "Computers in Biology and Medicine, 183, 109251",
@@ -20,20 +13,7 @@
         "year": "2024",
         "link": "https://doi.org/10.1007/978-3-031-66535-6_19"
     },
-    {
-        "title": "Neural Mosaics: Detecting Aberrant Brain Interactions using Algebraic Topology and Generative Artificial Intelligence",
-        "authors": "Prantzalos, K., Upadhyaya, D. P., Golnari, P., Fernandez-Baca Vaca, G., Aispuro, G. P., Salehizadeh, S., Thyagaraj, S., Gurski, N., & Sahoo, S. S.",
-        "journal": "AMIA 2024 Annual Symposium (Accepted)",
-        "year": "2024",
-        "link": ""
-    },
-    {
-        "title": "Machine learning, artificial intelligence, and eye movements: Utility in detection of amblyopia [Abstract]",
-        "authors": "Sanchez, E., Upadhyaya, D. P., Cakir, G. B., Shaikh, A., Stefano, R., Sahoo, S., & Ghasia, F.",
-        "journal": "Investigative Ophthalmology & Visual Science, 65(7), 4301",
-        "year": "2024",
-        "link": "https://iovs.arvojournals.org/article.aspx?articleid=2795260"
-    },
+
     {
         "title": "Ontology-based feature engineering in machine learning workflows for heterogeneous epilepsy patient records",
         "authors": "Sahoo, S. S., Kobow, K., Zhang, J., Buchhalter, J., Dayyani, M., Upadhyaya, D. P., Prantzalos, K., Bhattacharjee, M., Blümcke, I., Wiebe, S., & Lhatoo, S. D.",
