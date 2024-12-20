@@ -65,10 +65,10 @@ p {
 }
 
 #social-links img {
-    width: 50px; /* Consistent width for all icons */
-    height: 50px; /* Consistent height for all icons */
+    width: 50px;
+    height: 50px;
     margin: 5px;
-    border-radius: 8px; /* Rounded corners for a professional look */
+    border-radius: 8px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
