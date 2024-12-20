@@ -10,13 +10,13 @@ fetch('data/publications.json')
         const publicationsContainer = document.getElementById('publications-container');
         data.forEach(pub => {
             const pubDiv = document.createElement('div');
-            pubDiv.classList.add('publication');
+            pubDiv.className = 'publication';
 
             pubDiv.innerHTML = `
                 <h3>${pub.title}</h3>
                 <p class="authors">${pub.authors}</p>
-                <p class="journal">${pub.journal} <span class="year">${pub.year}</span></p>
-                <p>${pub.link ? `<a href="${pub.link}" target="_blank">Read More</a>` : ''}</p>
+                <p>${pub.journal} (${pub.year})</p>
+                ${pub.link ? `<a href="${pub.link}" target="_blank">Read More</a>` : ''}
             `;
             publicationsContainer.appendChild(pubDiv);
         });
