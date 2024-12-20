@@ -1,89 +1,155 @@
-/* General Styles */
+/* General Reset */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #243b55;
-    color: white;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    padding: 1rem 0;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 main {
-    padding: 2rem;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin-bottom: 2rem;
 }
 
 #profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
-    color: #243b55;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+#social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 #social-links a {
-    margin: 0 10px;
-    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
 }
 
 #social-links img {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.2s ease;
+    width: 50px; /* Consistent width for all icons */
+    height: 50px; /* Consistent height for all icons */
+    margin: 5px;
+    border-radius: 8px; /* Rounded corners for a professional look */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* Hover effect for all icons */
 #social-links img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-/* #publications-container {
-    list-style-type: none;
-    padding: 0;
-}
-
-#publications-container li {
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 1rem;
-} */
-
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #243b55;
-    color: white;
-}
-
 
 /* Publications Section */
 #publications-container {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Spacing between publications */
+    gap: 15px;
 }
 
 .publication-card {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 10px;
     padding: 15px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .publication-card:hover {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-    transition: box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+}
+
+.publication-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.publication-authors {
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #555;
+}
+
+.publication-journal {
+    font-size: 14px;
+    color: #777;
+}
+
+.publication-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #007bff;
+}
+
+.publication-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    #profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    #social-links img {
+        width: 40px;
+        height: 40px;
+    }
 }
