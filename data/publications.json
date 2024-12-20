@@ -1,10 +1,130 @@
 [
     {
-        "title": "Machine learning interpretability methods to characterize the importance of hematologic biomarkers...",
-        "link": "https://doi.org/10.1016/j.compbiomed.2024.109251"
+      "title": "Machine learning interpretability methods to characterize the importance of hematologic biomarkers in prognosticating patients with suspected infection",
+      "authors": "Upadhyaya, D. P., Tarabichi, Y., Prantzalos, K., Ayub, S., Kaelber, D. C., & Sahoo, S. S.",
+      "journal": "Computers in Biology and Medicine, 183, 109251",
+      "year": "2024",
+      "link": "https://doi.org/10.1016/j.compbiomed.2024.109251"
     },
     {
-        "title": "A 360° view for large language models: Early detection of amblyopia...",
-        "link": "https://doi.org/10.1007/978-3-031-66535-6_19"
-    }
-]
+      "title": "A 360° view for large language models: Early detection of amblyopia in children using multi-view eye movement recordings",
+      "authors": "Upadhyaya, D. P., Shaikh, A. G., Cakir, G. B., Prantzalos, K., Golnari, P., Ghasia, F. F., & Sahoo, S. S.",
+      "journal": "Artificial Intelligence in Medicine. AIME 2024",
+      "year": "2024",
+      "link": "https://doi.org/10.1007/978-3-031-66535-6_19"
+    },
+    {
+      "title": "Explainable Artificial Intelligence (XAI) in the era of large language models: Applying an XAI framework in pediatric ophthalmology diagnosis using the Gemini model",
+      "authors": "Upadhyaya, D. P., Prantzalos, K., Golnari, P., Shaikh, A. G., Sivagnanam, S., Majumdar, A., Ghasia, F. F., & Sahoo, S. S.",
+      "journal": "AMIA 2025 Informatics Summit (Accepted)",
+      "year": "2025",
+      "link": ""
+    },
+    {
+      "title": "Neural Mosaics: Detecting Aberrant Brain Interactions using Algebraic Topology and Generative Artificial Intelligence",
+      "authors": "Prantzalos, K., Upadhyaya, D. P., Golnari, P., Fernandez-Baca Vaca, G., Aispuro, G. P., Salehizadeh, S., Thyagaraj, S., Gurski, N., & Sahoo, S. S.",
+      "journal": "AMIA 2024 Annual Symposium (Accepted)",
+      "year": "2024",
+      "link": ""
+    },
+    {
+      "title": "Machine learning, artificial intelligence, and eye movements: Utility in detection of amblyopia [Abstract]",
+      "authors": "Sanchez, E., Upadhyaya, D. P., Cakir, G. B., Shaikh, A., Stefano, R., Sahoo, S., & Ghasia, F.",
+      "journal": "Investigative Ophthalmology & Visual Science, 65(7), 4301",
+      "year": "2024",
+      "link": "https://iovs.arvojournals.org/article.aspx?articleid=2795260"
+    },
+    {
+      "title": "MaTiLDA: An integrated machine learning and topological data analysis platform for brain network dynamics",
+      "authors": "Prantzalos, K., Upadhyaya, D., Shafiabadi, N., Fernandez-Baca Vaca, G., Gurski, N., Yoshimoto, K., Sivagnanam, S., Majumdar, A., & Sahoo, S. S.",
+      "journal": "Pacific Symposium on Biocomputing, 29, 65–80",
+      "year": "2024",
+      "link": "https://doi.org/10.1142/9789811286421_0006"
+    },
+    {
+      "title": "Towards building a trustworthy pipeline integrating Neuroscience Gateway and Open Science Chain",
+      "authors": "Sivagnanam, S., Yeu, S., Lin, K., Sakai, S., Garzon, F., Yoshimoto, K., Prantzalos, K., Upadhyaya, D. P., Majumdar, A., Sahoo, S. S., & Lytton, W. W.",
+      "journal": "Database: The Journal of Biological Databases and Curation, 2024, baae023",
+      "year": "2024",
+      "link": "https://doi.org/10.1093/database/baae023"
+    },
+    {
+        "title": "Epidemiological and spatial distribution of COVID-19 morbidity and mortality in Nepal",
+        "authors": "Poudyal, A. K., Shakya, K. L., Sapkota, V. P., Paudel, R., Myia, S. D., Pradhan, P. M. S., Upadhyaya, D. P., Joshi, N., & Shrestha, S.",
+        "journal": "Journal of Nepal Health Research Council, 22(2), 252–257",
+        "year": "2024",
+        "link": "http://www.jnhrc.com.np/index.php/jnhrc/article/view/4775"
+      },
+      {
+        "title": "Utilization of adolescent friendly health services and its associated factors among higher secondary students in mid-western Himalayan mountainous district of Nepal",
+        "authors": "Sharma, M., Khatri, B., Amatya, A., Subedi, N., Upadhyaya, D. P., Sapkota, B. P., & Bista, P.",
+        "journal": "PLOS Global Public Health, 3(3), e0001616",
+        "year": "2023",
+        "link": "https://doi.org/10.1371/journal.pgph.0001616"
+      },
+      {
+        "title": "Ontology-based feature engineering in machine learning workflows for heterogeneous epilepsy patient records",
+        "authors": "Sahoo, S. S., Kobow, K., Zhang, J., Buchhalter, J., Dayyani, M., Upadhyaya, D. P., Prantzalos, K., Bhattacharjee, M., Blümcke, I., Wiebe, S., & Lhatoo, S. D.",
+        "journal": "Scientific Reports, 12(1), 19430",
+        "year": "2022",
+        "link": "https://doi.org/10.1038/s41598-022-23101-3"
+      },
+      {
+        "title": "Prevalence of low birth weight and its associated factors: Hospital-based cross-sectional study in Nepal",
+        "authors": "Thapa, P., Poudyal, A., Poudel, R., Upadhyaya, D. P., Timalsina, A., Bhandari, R., & Adhikari, N.",
+        "journal": "PLOS Global Public Health, 2(11), e0001220",
+        "year": "2022",
+        "link": "https://doi.org/10.1371/journal.pgph.0001220"
+      },
+      {
+        "title": "Infant and young child feeding practices and its associated factors among mothers of under two years children in a western hilly region of Nepal",
+        "authors": "Adhikari, N., Acharya, K., Upadhya, D. P., Pathak, S., Pokharel, S., & Pradhan, P. M. S.",
+        "journal": "PLOS ONE, 16(12), e0261301",
+        "year": "2021",
+        "link": "https://doi.org/10.1371/journal.pone.0261301"
+      },
+      {
+        "title": "Patient satisfaction and its socio-demographic correlates in a tertiary public hospital in Nepal: A cross-sectional study",
+        "authors": "Adhikari, M., Paudel, N. R., Mishra, S. R., Shrestha, A., & Upadhyaya, D. P.",
+        "journal": "BMC Health Services Research, 21(1), 135",
+        "year": "2021",
+        "link": "https://doi.org/10.1186/s12913-021-06155-3"
+      },
+      {
+        "title": "Frontline healthcare workers' knowledge and perception of COVID-19, and willingness to work during the pandemic in Nepal",
+        "authors": "Upadhyaya, D. P., Paudel, R., Acharya, D., Khoshnood, K., Lee, K., Park, J. H., Yoo, S. J., Shrestha, A., Bc, B., Bhandari, S., Yadav, R., Timalsina, A., Wagle, C. N., Das, B. K., Kunwar, R., Chalise, B., Bhatta, D. R., & Adhikari, M.",
+        "journal": "Healthcare, 8(4), 554",
+        "year": "2020",
+        "link": "https://doi.org/10.3390/healthcare8040554"
+      },
+      {
+        "title": "Sociodemographic correlates of antenatal care visits in Nepal: Results from Nepal Demographic and Health Survey 2016",
+        "authors": "Adhikari, M., Chalise, B., Bista, B., Pandey, A. R., & Upadhyaya, D. P.",
+        "journal": "BMC Pregnancy and Childbirth, 20(1), 513",
+        "year": "2020",
+        "link": "https://doi.org/10.1186/s12884-020-03218-x"
+      },
+      {
+        "title": "Socio-demographic and healthcare-seeking predictors of undernutrition among children under-five years of age in a western district of Nepal",
+        "authors": "Paudel, R., Gurung, Y. B., Poudyal, A. K., Khatri, B., Bhatta, D. R., Acharya, D., Singh, J. K., Adhikari, M. R., Sapkota, R., Mahotra, N. B., & Upadhyaya, D. P.",
+        "journal": "Journal of Nepal Health Research Council, 18(3), 488–494",
+        "year": "2020",
+        "link": "https://doi.org/10.33314/jnhrc.v18i3.2875"
+      },
+      {
+        "title": "Predictors of multiple micronutrient powder intake adherence among children aged 6–23 months in Rasuwa District, Nepal: A cross-sectional study",
+        "authors": "Timalsina, A., Paudel, R., Upadhyaya, D. P., Bhattacharya, S., Kuikel, B. S., Joshi, N. P., Acharya, D., Adhikari, N., & Bhandari, R.",
+        "journal": "Journal of the Institute of Medicine, 43(2), 69–75",
+        "year": "2021",
+        "link": "https://www.nepjol.info/index.php/JIOM/article/view/37542"
+      },
+      {
+        "title": "Initiation of contact tracing for COVID-19 at an academic institution for health science: Initial experiences",
+        "authors": "Paudel, R., & Upadhyaya, D. P.",
+        "journal": "Journal of Chitwan Medical College, 10(3), 109–110",
+        "year": "2020",
+        "link": "https://doi.org/10.3126/jcmc.v10i3.32068"
+      }
+ ]
+    
+  
