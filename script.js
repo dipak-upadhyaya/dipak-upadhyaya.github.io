@@ -1,12 +1,14 @@
 // Fetch the JSON file containing publications
 fetch('data/publications.json')
     .then(response => {
+        console.log('Fetching publications.json...');
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
         return response.json();
     })
     .then(data => {
+        console.log('Publications data fetched successfully:', data);
         const publicationsList = document.getElementById('publications-list');
         data.forEach(pub => {
             const li = document.createElement('li');
@@ -20,6 +22,3 @@ fetch('data/publications.json')
         });
     })
     .catch(error => console.error('Error fetching publications:', error));
-
-    <script src="script.js"></script>
-```
