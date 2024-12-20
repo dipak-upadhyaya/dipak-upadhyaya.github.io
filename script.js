@@ -1,4 +1,4 @@
-// Fetch the JSON file containing publications
+// Fetch and display publications
 fetch('data/publications.json')
     .then(response => {
         if (!response.ok) {
@@ -9,14 +9,15 @@ fetch('data/publications.json')
     .then(data => {
         const publicationsContainer = document.getElementById('publications-container');
         data.forEach(pub => {
-            const pubDiv = document.createElement('div');
-            pubDiv.innerHTML = `
-                <strong>${pub.title}</strong><br>
-                <em>${pub.authors}</em><br>
-                <span>${pub.journal} (${pub.year})</span><br>
-                ${pub.link ? `<a href="${pub.link}" target="_blank">Read More</a>` : ''}
+            const li = document.createElement('li');
+            const boldedAuthors = pub.authors.replace(/Upadhyaya, D\. P\./g, '<strong>Upadhyaya, D. P.</strong>'); // Bold the name
+            li.innerHTML = `
+                <p><strong>${pub.title}</strong></p>
+                <p><em>${boldedAuthors}</em></p>
+                <p>${pub.journal} (${pub.year})</p>
+                ${pub.link ? `<p><a href="${pub.link}" target="_blank">Read More</a></p>` : ''}
             `;
-            publicationsContainer.appendChild(pubDiv);
+            publicationsContainer.appendChild(li);
         });
     })
     .catch(error => console.error('Error fetching publications:', error));
