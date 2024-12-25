@@ -9,16 +9,24 @@ fetch('data/publications.json')
     .then(data => {
         const publicationsContainer = document.getElementById('publications-container');
         data.forEach(pub => {
-            const card = document.createElement('div');
-            card.classList.add('publication-card');
-            const boldedAuthors = pub.authors.replace(/Upadhyaya, D\. P\./g, '<strong>Upadhyaya, D. P.</strong>'); // Bold the name
-            card.innerHTML = `
-                <p><strong>${pub.title}</strong></p>
-                <p><em>${boldedAuthors}</em></p>
-                <p>${pub.journal} (${pub.year})</p>
-                ${pub.link ? `<p><a href="${pub.link}" target="_blank">Read More</a></p>` : ''}
+            const pubDiv = document.createElement('div');
+            pubDiv.classList.add('publication');
+            pubDiv.innerHTML = `
+                <strong>${pub.title}</strong><br>
+                <em>${pub.authors.replace('Upadhyaya, D. P.', '<strong>Upadhyaya, D. P.</strong>')}</em><br>
+                <span>${pub.journal} (${pub.year})</span><br>
+                ${pub.link ? `<a href="${pub.link}" target="_blank">Read More</a>` : ''}
             `;
-            publicationsContainer.appendChild(card);
+            publicationsContainer.appendChild(pubDiv);
         });
     })
     .catch(error => console.error('Error fetching publications:', error));
+
+// Visitor counter using localStorage
+if (!localStorage.getItem("visitorCount")) {
+    localStorage.setItem("visitorCount", 0);
+}
+
+let visitorCount = parseInt(localStorage.getItem("visitorCount")) + 1;
+localStorage.setItem("visitorCount", visitorCount);
+document.getElementById("visitor-count").innerText = visitorCount;
