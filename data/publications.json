@@ -1,5 +1,26 @@
 [
     {
+        "title": "Explainable artificial intelligence (XAI) in the era of large language models: applying an XAI framework in pediatric ophthalmology diagnosis using the Gemini model",
+        "authors": "Upadhyaya, D. P., Prantzalos, K., Golnari, P., Shaikh, A. G., Sivagnanam, S., Majumdar, A., Ghasia, F. F., & Sahoo, S. S.",
+        "journal": "AMIA 2025 Informatics Summit, American Medical Informatics Association",
+        "year": "2025",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12150742/"
+    },
+    {
+        "title": "A Multi-Head Attention Deep Learning Algorithm to Detect Amblyopia using Fixation Eye Movements",
+        "authors": "Upadhyaya, D. P., Cakir, G. B., Stefano, R., Shaikh, A., Albert, J., Sahoo, S. S., & Ghasia, F.",
+        "journal": "Ophthalmology Science, American Academy of Ophthalmology",
+        "year": "2025",
+        "link": "https://doi.org/10.1016/j.xops.2025.100775"
+    },
+    {
+        "title": "A 360° view for large language models: Early detection of amblyopia in children using multi-view eye movement recordings",
+        "authors": "Upadhyaya, D. P., Shaikh, A. G., Cakir, G. B., Prantzalos, K., Golnari, P., Ghasia, F. F., & Sahoo, S. S.",
+        "journal": "Artificial Intelligence in Medicine. AIME 2024, Lecture Notes in Computer Science",
+        "year": "2024",
+        "link": "https://doi.org/10.1007/978-3-031-66535-6_19"
+    },
+    {
         "title": "Machine learning interpretability methods to characterize the importance of hematologic biomarkers in prognosticating patients with suspected infection",
         "authors": "Upadhyaya, D. P., Tarabichi, Y., Prantzalos, K., Ayub, S., Kaelber, D. C., & Sahoo, S. S.",
         "journal": "Computers in Biology and Medicine, 183, 109251",
@@ -7,39 +28,52 @@
         "link": "https://doi.org/10.1016/j.compbiomed.2024.109251"
     },
     {
-        "title": "A 360° view for large language models: Early detection of amblyopia in children using multi-view eye movement recordings",
-        "authors": "Upadhyaya, D. P., Shaikh, A. G., Cakir, G. B., Prantzalos, K., Golnari, P., Ghasia, F. F., & Sahoo, S. S.",
-        "journal": "Artificial Intelligence in Medicine. AIME 2024",
-        "year": "2024",
-        "link": "https://doi.org/10.1007/978-3-031-66535-6_19"
+        "title": "Standardized Epilepsy Data Collection and Analysis Leveraging the Four-Dimensional Epilepsy Classification (4D-EC) Framework",
+        "authors": "Prantzalos, K., Golnari, P., Upadhyaya, D. P., Thyagaraj, S., Fernandez Baca-Vaca, G., Luders, H., & Sahoo, S. S.",
+        "journal": "MEDINFO 2025",
+        "year": "2025",
+        "link": "https://doi.org/10.3233/SHTI250809"
     },
-
+    {
+        "title": "Embedding Medical Expert Input in Large Language Models for Clinical Applications",
+        "authors": "Golnari, P., Prantzalos, K., Upadhyaya, D. P., Buchhalter, J., & Sahoo, S. S.",
+        "journal": "MEDINFO 2025",
+        "year": "2025",
+        "link": "https://doi.org/10.3233/SHTI250922"
+    },
+    {
+        "title": "Neural Mosaics: Detecting Aberrant Brain Interactions using Algebraic Topology and Generative Artificial Intelligence",
+        "authors": "Prantzalos, K., Upadhyaya, D. P., Golnari, P., Fernandez-BacaVaca, G., Aispuro, G. P., Salehizadeh, S., Thyagaraj, S., Gurski, N., Yoshimoto, K., Sivagnanam, S., Majumdar, A., & Sahoo, S. S.",
+        "journal": "AMIA Annual Symposium Proceedings",
+        "year": "2024",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12099319/"
+    },
+    {
+        "title": "Towards building a trustworthy pipeline integrating Neuroscience Gateway and Open Science Chain",
+        "authors": "Sivagnanam, S., Yeu, S., Lin, K., Sakai, S., Garzon, F., Yoshimoto, K., Prantzalos, K., Upadhyaya, D. P., Majumdar, A., Sahoo, S. S., & Lytton, W. W.",
+        "journal": "Database",
+        "year": "2024",
+        "link": "https://doi.org/10.1093/database/baae023"
+    },
+    {
+        "title": "Machine learning, artificial intelligence, and eye movements: Utility in detection of amblyopia [Abstract]",
+        "authors": "Sanchez, E., Upadhyaya, D. P., Cakir, G. B., Shaikh, A., Stefano, R., Sahoo, S., & Ghasia, F.",
+        "journal": "Investigative Ophthalmology & Visual Science, 65(7), 4301",
+        "year": "2024",
+        "link": "https://doi.org/10.1167/iovs.65.7.4301"
+    },
+    {
+        "title": "MaTiLDA: An Integrated Machine Learning and Topological Data Analysis Platform for Brain Network Dynamics",
+        "authors": "Prantzalos, K., Upadhyaya, D. P., Shafiabadi, N., Gurski, N., Fernandez-BacaVaca, G., Yoshimoto, K., Sivagnanam, S., Majumdar, A., & Sahoo, S. S.",
+        "journal": "Proceedings of the 29th Pacific Symposium on Biocomputing (PSB), 29:65-80",
+        "year": "2024",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/38160270/"
+    },
     {
         "title": "Ontology-based feature engineering in machine learning workflows for heterogeneous epilepsy patient records",
         "authors": "Sahoo, S. S., Kobow, K., Zhang, J., Buchhalter, J., Dayyani, M., Upadhyaya, D. P., Prantzalos, K., Bhattacharjee, M., Blümcke, I., Wiebe, S., & Lhatoo, S. D.",
-        "journal": "Scientific Reports, 12(1), 19430",
+        "journal": "Scientific Reports",
         "year": "2022",
         "link": "https://doi.org/10.1038/s41598-022-23101-3"
-    },
-    {
-        "title": "Prevalence of low birth weight and its associated factors: Hospital-based cross-sectional study in Nepal",
-        "authors": "Thapa, P., Poudyal, A., Poudel, R., Upadhyaya, D. P., Timalsina, A., Bhandari, R., & Adhikari, N.",
-        "journal": "PLOS Global Public Health, 2(11), e0001220",
-        "year": "2022",
-        "link": "https://doi.org/10.1371/journal.pgph.0001220"
-    },
-    {
-        "title": "Patient satisfaction and its socio-demographic correlates in a tertiary public hospital in Nepal: A cross-sectional study",
-        "authors": "Adhikari, M., Paudel, N. R., Mishra, S. R., Shrestha, A., & Upadhyaya, D. P.",
-        "journal": "BMC Health Services Research, 21(1), 135",
-        "year": "2021",
-        "link": "https://doi.org/10.1186/s12913-021-06155-3"
-    },
-    {
-        "title": "Frontline healthcare workers' knowledge and perception of COVID-19, and willingness to work during the pandemic in Nepal",
-        "authors": "Upadhyaya, D. P., Paudel, R., Acharya, D., Khoshnood, K., Lee, K., Park, J. H., Yoo, S. J., Shrestha, A., Bc, B., Bhandari, S., Yadav, R., Timalsina, A., Wagle, C. N., Das, B. K., Kunwar, R., Chalise, B., Bhatta, D. R., & Adhikari, M.",
-        "journal": "Healthcare, 8(4), 554",
-        "year": "2020",
-        "link": "https://doi.org/10.3390/healthcare8040554"
     }
 ]
